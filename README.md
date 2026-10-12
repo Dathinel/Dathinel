@@ -58,3 +58,5 @@ Programas propios para Windows, uno por repositorio: compilados de antemano con 
   <img src="https://github-readme-stats.vercel.app/api?username=Dathinel&show_icons=true&hide_border=true&bg_color=1D1D1D&title_color=E8833A&icon_color=E8833A&text_color=ECECEC&ring_color=E8833A&locale=es" alt="Estadísticas de GitHub de Dathinel" height="165">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dathinel&layout=compact&hide_border=true&bg_color=1D1D1D&title_color=E8833A&text_color=ECECEC&locale=es" alt="Lenguajes más usados" height="165">
 </p>
+
+<sub>Textos e imágenes de este perfil: [CC BY 4.0](LICENSE). El nombre y el logotipo de Rodaje no se incluyen (ver su [TRADEMARK.md](https://github.com/Dathinel/rodaje/blob/main/TRADEMARK.md)).</sub>
