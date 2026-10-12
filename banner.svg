@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Dathinel: software nativo para Windows, hecho desde cero">
+  <!-- Banner del perfil: grafito #101010 / #1D1D1D, borde #3A3A3A, acento #E8833A (paleta de Rodaje). -->
+  <defs>
+    <linearGradient id="fondo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1D1D1D"/>
+      <stop offset="1" stop-color="#101010"/>
+    </linearGradient>
+    <linearGradient id="brillo" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#E8833A" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#E8833A"/>
+      <stop offset="1" stop-color="#E8833A" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="perforaciones" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <rect x="8" y="6" width="8" height="12" fill="#101010"/>
+    </pattern>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="300" rx="12" fill="url(#fondo)" stroke="#3A3A3A" stroke-width="2"/>
+
+  <!-- Tira de película a la izquierda -->
+  <rect x="40" y="0" width="24" height="300" fill="#E8833A" opacity="0.92"/>
+  <rect x="40" y="0" width="24" height="300" fill="url(#perforaciones)"/>
+
+  <!-- Línea de acento inferior -->
+  <rect x="0" y="290" width="1200" height="2" fill="url(#brillo)"/>
+
+  <!-- Línea de tiempo decorativa (derecha) -->
+  <g opacity="0.9">
+    <rect x="760" y="92" width="380" height="2" fill="#3A3A3A"/>
+    <rect x="760" y="110" width="150" height="34" rx="2" fill="#33587C" stroke="#7FB0DE" stroke-width="1.5"/>
+    <rect x="918" y="110" width="222" height="34" rx="2" fill="#33587C" stroke="#7FB0DE" stroke-width="1.5"/>
+    <rect x="760" y="152" width="96" height="34" rx="2" fill="#574573" stroke="#B7A2E3" stroke-width="1.5"/>
+    <rect x="760" y="194" width="380" height="34" rx="2" fill="#365A31" stroke="#9BCB83" stroke-width="1.5"/>
+    <polyline points="770,216 790,204 810,222 830,206 850,214 870,200 890,220 910,208 930,218 950,202 970,222 990,210 1010,216 1030,204 1050,220 1070,208 1090,216 1110,206 1130,214" fill="none" stroke="#9BCB83" stroke-width="1.5" opacity="0.8"/>
+    <!-- Cabezal de reproducción -->
+    <rect x="1000" y="84" width="2" height="152" fill="#E8833A"/>
+    <polygon points="992,84 1010,84 1001,94" fill="#E8833A"/>
+    <!-- Keyframes -->
+    <polygon points="840,127 846,121 852,127 846,133" fill="#F2D16B"/>
+    <polygon points="960,127 966,121 972,127 966,133" fill="#F2D16B"/>
+  </g>
+
+  <!-- Texto -->
+  <g font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif">
+    <text x="110" y="128" font-size="20" font-weight="600" letter-spacing="6" fill="#E8833A">GITHUB.COM/DATHINEL</text>
+    <text x="108" y="196" font-size="72" font-weight="700" letter-spacing="-1" fill="#ECECEC">Dathinel</text>
+    <text x="110" y="236" font-size="22" fill="#B0B0B0">Software nativo para Windows, hecho desde cero.</text>
+  </g>
+</svg>
