@@ -23,13 +23,33 @@ Programas propios para Windows, uno por repositorio: compilados de antemano con 
       <a href="https://github.com/Dathinel/rodaje">Repositorio</a> ·
       <a href="https://github.com/Dathinel/rodaje/releases">Descargas</a> ·
       <a href="https://github.com/Dathinel/rodaje/blob/main/docs/README.md">Documentación</a> ·
-      Complementos CC0:
-      <a href="https://github.com/Dathinel/rodaje-transiciones">transiciones</a>,
-      <a href="https://github.com/Dathinel/rodaje-filtros">filtros</a>,
-      <a href="https://github.com/Dathinel/rodaje-catalogo">catálogo</a>
+      <a href="#complementos">Complementos</a>
     </td>
   </tr>
 </table>
+
+### Complementos
+
+Rodaje viene completo como editor y exportador; lo demás se instala desde la app (Complementos), que baja cada `.paquete` del [catálogo firmado](https://github.com/Dathinel/rodaje-catalogo) <a href="https://github.com/Dathinel/rodaje-catalogo/releases/latest"><img src="https://img.shields.io/github/v/release/Dathinel/rodaje-catalogo?style=flat-square&labelColor=1D1D1D&color=E8833A&label=%C3%ADndice" alt="Última versión del índice"></a> y comprueba su firma. Cómo se hace: [guía de complementos](https://github.com/Dathinel/rodaje/blob/main/docs/guia/complementos.md).
+
+| Complemento | Qué trae | Versión | Licencia |
+|---|---|---|---|
+| [rodaje-transiciones](https://github.com/Dathinel/rodaje-transiciones) | 45 transiciones: curvas de movimiento y mezclas de calidad en la GPU | <a href="https://github.com/Dathinel/rodaje-transiciones/releases/latest"><img src="https://img.shields.io/github/v/release/Dathinel/rodaje-transiciones?style=flat-square&labelColor=1D1D1D&color=E8833A&label=" alt="Última versión de rodaje-transiciones"></a> | CC0 |
+| [rodaje-filtros](https://github.com/Dathinel/rodaje-filtros) | 13 looks de color con LUT 3D | <a href="https://github.com/Dathinel/rodaje-filtros/releases/latest"><img src="https://img.shields.io/github/v/release/Dathinel/rodaje-filtros?style=flat-square&labelColor=1D1D1D&color=E8833A&label=" alt="Última versión de rodaje-filtros"></a> | CC0 |
+| [rodaje-fuentes](https://github.com/Dathinel/rodaje-fuentes) | 10 familias tipográficas libres | <a href="https://github.com/Dathinel/rodaje-fuentes/releases/latest"><img src="https://img.shields.io/github/v/release/Dathinel/rodaje-fuentes?style=flat-square&labelColor=1D1D1D&color=E8833A&label=" alt="Última versión de rodaje-fuentes"></a> | OFL |
+| [rodaje-titulos](https://github.com/Dathinel/rodaje-titulos) | 15 estilos de texto, subtítulos y karaoke | <a href="https://github.com/Dathinel/rodaje-titulos/releases/latest"><img src="https://img.shields.io/github/v/release/Dathinel/rodaje-titulos?style=flat-square&labelColor=1D1D1D&color=E8833A&label=" alt="Última versión de rodaje-titulos"></a> | CC0 |
+| [rodaje-zonas](https://github.com/Dathinel/rodaje-zonas) | 12 guías de encuadre para el visor | <a href="https://github.com/Dathinel/rodaje-zonas/releases/latest"><img src="https://img.shields.io/github/v/release/Dathinel/rodaje-zonas?style=flat-square&labelColor=1D1D1D&color=E8833A&label=" alt="Última versión de rodaje-zonas"></a> | CC0 |
+| [rodaje-camaras](https://github.com/Dathinel/rodaje-camaras) | 9 LUT de log de cámara a Rec. 709 | <a href="https://github.com/Dathinel/rodaje-camaras/releases/latest"><img src="https://img.shields.io/github/v/release/Dathinel/rodaje-camaras?style=flat-square&labelColor=1D1D1D&color=E8833A&label=" alt="Última versión de rodaje-camaras"></a> | CC0 |
+| [rodaje-sonidos](https://github.com/Dathinel/rodaje-sonidos) | 50 efectos de sonido sintetizados | <a href="https://github.com/Dathinel/rodaje-sonidos/releases/latest"><img src="https://img.shields.io/github/v/release/Dathinel/rodaje-sonidos?style=flat-square&labelColor=1D1D1D&color=E8833A&label=" alt="Última versión de rodaje-sonidos"></a> | CC0 |
+| [rodaje-preajustes-pro](https://github.com/Dathinel/rodaje-preajustes-pro) | 15 preajustes de exportación: ProRes, DNxHR, emisión, cine | <a href="https://github.com/Dathinel/rodaje-preajustes-pro/releases/latest"><img src="https://img.shields.io/github/v/release/Dathinel/rodaje-preajustes-pro?style=flat-square&labelColor=1D1D1D&color=E8833A&label=" alt="Última versión de rodaje-preajustes-pro"></a> | CC0 |
+| [rodaje-360](https://github.com/Dathinel/rodaje-360) | Video 360: reencuadre, pequeño planeta y exportación esférica | <a href="https://github.com/Dathinel/rodaje-360/releases/latest"><img src="https://img.shields.io/github/v/release/Dathinel/rodaje-360?style=flat-square&labelColor=1D1D1D&color=E8833A&label=" alt="Última versión de rodaje-360"></a> | CC0 |
+| [rodaje-codificadores-gpl](https://github.com/Dathinel/rodaje-codificadores-gpl) | x264 y x265 con un ffmpeg.exe GPL propio | <a href="https://github.com/Dathinel/rodaje-codificadores-gpl/releases/latest"><img src="https://img.shields.io/github/v/release/Dathinel/rodaje-codificadores-gpl?style=flat-square&labelColor=1D1D1D&color=E8833A&label=" alt="Última versión de rodaje-codificadores-gpl"></a> | GPLv3 |
+| [modulo-subtitulos](https://github.com/Dathinel/modulo-subtitulos) | Subtítulos automáticos con Whisper | <a href="https://github.com/Dathinel/modulo-subtitulos/releases/latest"><img src="https://img.shields.io/github/v/release/Dathinel/modulo-subtitulos?style=flat-square&labelColor=1D1D1D&color=E8833A&label=" alt="Última versión de modulo-subtitulos"></a> | GPLv3 |
+| [modulo-traducir](https://github.com/Dathinel/modulo-traducir) | Traducción de subtítulos con Qwen3-4B | <a href="https://github.com/Dathinel/modulo-traducir/releases/latest"><img src="https://img.shields.io/github/v/release/Dathinel/modulo-traducir?style=flat-square&labelColor=1D1D1D&color=E8833A&label=" alt="Última versión de modulo-traducir"></a> | GPLv3 |
+| [modulo-voz](https://github.com/Dathinel/modulo-voz) | Texto a voz con Kokoro-82M | <a href="https://github.com/Dathinel/modulo-voz/releases/latest"><img src="https://img.shields.io/github/v/release/Dathinel/modulo-voz?style=flat-square&labelColor=1D1D1D&color=E8833A&label=" alt="Última versión de modulo-voz"></a> | GPLv3 |
+| [modulo-audio-ia](https://github.com/Dathinel/modulo-audio-ia) | Reducción de ruido y detección de voz | <a href="https://github.com/Dathinel/modulo-audio-ia/releases/latest"><img src="https://img.shields.io/github/v/release/Dathinel/modulo-audio-ia?style=flat-square&labelColor=1D1D1D&color=E8833A&label=" alt="Última versión de modulo-audio-ia"></a> | GPLv3 |
+| [modulo-vision](https://github.com/Dathinel/modulo-vision) | Quitar fondo, rostros y reencuadre automático | <a href="https://github.com/Dathinel/modulo-vision/releases/latest"><img src="https://img.shields.io/github/v/release/Dathinel/modulo-vision?style=flat-square&labelColor=1D1D1D&color=E8833A&label=" alt="Última versión de modulo-vision"></a> | GPLv3 |
+| [modulo-raw](https://github.com/Dathinel/modulo-raw) | Revelado de CinemaDNG con LibRaw | <a href="https://github.com/Dathinel/modulo-raw/releases/latest"><img src="https://img.shields.io/github/v/release/Dathinel/modulo-raw?style=flat-square&labelColor=1D1D1D&color=E8833A&label=" alt="Última versión de modulo-raw"></a> | GPLv3 |
 
 ## Tecnologías
 
