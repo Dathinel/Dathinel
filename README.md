@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="banner.svg" alt="Dathinel: software nativo para Windows, hecho desde cero" width="100%">
+  <img src="banner.svg" alt="Dathinel: estudiante que aprende a crear software con IA" width="100%">
 </p>
 
-Programas propios para Windows, uno por repositorio: compilados de antemano con Native AOT, autocontenidos y sin instalador obligatorio. Todo el código es propio; de otros programas solo se toman ideas de producto.
+Soy estudiante y estoy aprendiendo a crear software con ayuda de la IA (Claude Code y otros agentes). Aquí publico en código abierto programas para cosas que me gustan y uso, cada uno en su propio repositorio. De otros programas solo tomo ideas, nunca su código ni sus recursos.
 
 ## Rodaje
 
