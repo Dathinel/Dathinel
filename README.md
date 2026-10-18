@@ -15,7 +15,8 @@ Programas propios para Windows, uno por repositorio: compilados de antemano con 
       <b>Editor de video nativo para Windows.</b> Edición por capas al cuadro exacto, imagen en la GPU (Direct3D 11), títulos y subtítulos, audio con mezcla a LUFS, exportación por GPU e IA local por módulos. Escrito en C# con .NET 10 y WinUI 3; compilado con Native AOT, no necesita .NET instalado.
       <br><br>
       <a href="https://github.com/Dathinel/rodaje/blob/main/LICENSE"><img src="https://img.shields.io/badge/licencia-GPLv3-E8833A?style=flat-square&labelColor=1D1D1D" alt="Licencia GPLv3"></a>
-      <a href="https://github.com/Dathinel/rodaje/releases"><img src="https://img.shields.io/badge/versi%C3%B3n-1.0.0-E8833A?style=flat-square&labelColor=1D1D1D" alt="Versión 1.0.0"></a>
+      <a href="https://github.com/Dathinel/rodaje/releases/latest"><img src="https://img.shields.io/github/v/release/Dathinel/rodaje?style=flat-square&labelColor=1D1D1D&color=E8833A&label=versi%C3%B3n" alt="Última versión publicada"></a>
+      <a href="https://github.com/Dathinel/rodaje/commits/main"><img src="https://img.shields.io/github/commits-since/Dathinel/rodaje/latest?style=flat-square&labelColor=1D1D1D&color=E8833A&label=cambios%20sin%20publicar" alt="Cambios desde la última versión"></a>
       <img src="https://img.shields.io/badge/Windows-x64-E8833A?style=flat-square&labelColor=1D1D1D" alt="Windows x64">
       <img src="https://img.shields.io/badge/.NET-10-E8833A?style=flat-square&labelColor=1D1D1D&logo=dotnet&logoColor=white" alt=".NET 10">
       <a href="https://github.com/Dathinel/rodaje/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/Dathinel/rodaje/ci.yml?branch=main&style=flat-square&labelColor=1D1D1D&label=CI" alt="Estado de la CI"></a>
