@@ -52,6 +52,16 @@ Rodaje viene completo como editor y exportador; lo demás se instala desde la ap
 | [modulo-vision](https://github.com/Dathinel/modulo-vision) | Quitar fondo, rostros y reencuadre automático | <a href="https://github.com/Dathinel/modulo-vision/releases/latest"><img src="https://img.shields.io/github/v/release/Dathinel/modulo-vision?style=flat-square&labelColor=1D1D1D&color=E8833A&label=" alt="Última versión de modulo-vision"></a> | GPLv3 |
 | [modulo-raw](https://github.com/Dathinel/modulo-raw) | Revelado de CinemaDNG con LibRaw | <a href="https://github.com/Dathinel/modulo-raw/releases/latest"><img src="https://img.shields.io/github/v/release/Dathinel/modulo-raw?style=flat-square&labelColor=1D1D1D&color=E8833A&label=" alt="Última versión de modulo-raw"></a> | GPLv3 |
 
+## Herramientas de IA (en construcción)
+
+Las funciones de IA de Rodaje, como programas aparte, cada uno con su propia interfaz y su propia descarga. Corren en tu PC, sin conexión, con los mismos módulos que usa Rodaje.
+
+| Herramienta | Qué hace | Licencia |
+|---|---|---|
+| [subtitular](https://github.com/Dathinel/subtitular) | Subtítulos automáticos, traducción y texto a voz | GPLv3 |
+| [rastrear](https://github.com/Dathinel/rastrear) | Seguimiento de puntos, quitar fondo, rostros y personas, reencuadre y estabilización | GPLv3 |
+| [lanzador](https://github.com/Dathinel/lanzador) | Lista, descarga e instala las otras herramientas | GPLv3 |
+
 ## Tecnologías
 
 <p align="center">
