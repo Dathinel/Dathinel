@@ -8,7 +8,7 @@
     <text x="28" y="106" font-size="15" fill="#B0B0B0">Releases publicadas</text>
     <text x="392" y="106" font-size="15" font-weight="700" fill="#ECECEC" text-anchor="end">37</text>
     <text x="28" y="134" font-size="15" fill="#B0B0B0">Commits en el último año</text>
-    <text x="392" y="134" font-size="15" font-weight="700" fill="#ECECEC" text-anchor="end">1587</text>
+    <text x="392" y="134" font-size="15" font-weight="700" fill="#ECECEC" text-anchor="end">1292</text>
     <text x="28" y="162" font-size="15" fill="#B0B0B0">Estrellas recibidas</text>
     <text x="392" y="162" font-size="15" font-weight="700" fill="#ECECEC" text-anchor="end">1</text>
   </g>
