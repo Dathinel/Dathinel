@@ -1,0 +1,42 @@
+name: Estadísticas del perfil
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/estadisticas.py
+      - .github/workflows/estadisticas.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: estadisticas
+  cancel-in-progress: true
+
+jobs:
+  generar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Generar tarjetas
+        run: python scripts/estadisticas.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Guardar si cambiaron
+        run: |
+          git add estadisticas
+          if git diff --cached --quiet; then
+            echo "Sin cambios."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Estadísticas del perfil actualizadas"
+          git push
