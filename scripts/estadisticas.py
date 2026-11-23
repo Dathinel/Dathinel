@@ -19,7 +19,7 @@ CONSULTA = """
 query($login: String!, $cursor: String) {
   user(login: $login) {
     createdAt
-    contributionsCollection { totalCommitContributions restrictedContributionsCount }
+    contributionsCollection { totalCommitContributions }
     repositories(first: 100, after: $cursor, ownerAffiliations: OWNER, isFork: false, privacy: PUBLIC) {
       pageInfo { hasNextPage endCursor }
       nodes {
@@ -68,7 +68,7 @@ def recoger():
         "repos": len(repos),
         "estrellas": sum(r["stargazerCount"] for r in repos),
         "releases": sum(r["releases"]["totalCount"] for r in repos),
-        "commits": aportes["totalCommitContributions"] + aportes["restrictedContributionsCount"],
+        "commits": aportes["totalCommitContributions"],
         "lenguajes": sorted(lenguajes.items(), key=lambda par: -par[1][0]),
     }
 
